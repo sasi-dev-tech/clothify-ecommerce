@@ -18,7 +18,7 @@ public class ProductController {
         return productRepository.findAll();
     }
 
-    @PostMapping
+    @PostMapping("/data")
     public Product createProduct(@RequestBody Product product) {
         return productRepository.save(product);
     }
