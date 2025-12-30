@@ -1,4 +1,5 @@
 package com.example.clothingstore;
+    package com.example.clothingstore.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
